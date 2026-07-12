@@ -1,0 +1,1 @@
+.custom-scrollbar.svelte-1vpdqby::-webkit-scrollbar{width:8px}.custom-scrollbar.svelte-1vpdqby::-webkit-scrollbar-track{background:0 0}.custom-scrollbar.svelte-1vpdqby::-webkit-scrollbar-thumb{background:var(--rp-overlay);border-radius:4px}.spin.svelte-1vpdqby{animation:.8s linear infinite svelte-1vpdqby-spin}@keyframes svelte-1vpdqby-spin{to{transform:rotate(360deg)}}

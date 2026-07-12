@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="text-scale" content="scale" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<link href="/_app/immutable/entry/start.Bch7HORi.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CBdG4UvQ.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B4r9Qk57.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.uqnsMGfy.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/kNaey6uv.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/xihTtKlq.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.DKGHv5Ur.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DTmtq32K.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DniBwLPH.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Ct186OVX.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/D1mF6FBs.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BRf5KToz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/mNLHZJ3y.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/pmkBZAjm.js" rel="modulepreload">
+		
+		<link href="/_app/immutable/assets/0.zw5ySjzp.css" rel="stylesheet">
+		<style>
+			#global-loader {
+				position: fixed;
+				inset: 0;
+				background: #191724;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				z-index: 99999;
+				transition: opacity 0.3s ease-out, visibility 0.3s;
+				gap: 1.5rem;
+			}
+			.simple-spinner {
+				width: 48px;
+				height: 48px;
+				border: 3px solid rgba(224, 222, 244, 0.1);
+				border-radius: 50%;
+				border-top-color: #f6c177;
+				animation: spin 0.8s linear infinite;
+			}
+			@keyframes spin {
+				to { transform: rotate(360deg); }
+			}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_130yvg0 = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.Bch7HORi.js"),
+						import("/_app/immutable/entry/app.uqnsMGfy.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+		<div id="global-loader">
+			<div class="simple-spinner"></div>
+		</div>
+	</body>
+</html>

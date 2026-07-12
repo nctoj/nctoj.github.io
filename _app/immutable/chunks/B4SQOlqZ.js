@@ -1,0 +1,1 @@
+import{j as e,k as t}from"./B4r9Qk57.js";import"./xihTtKlq.js";var n=e(`<div class="flex justify-center items-center py-12"><i class="bx bx-loader-alt spin text-4xl text-rp-muted svelte-v1tg6x"></i></div>`);function r(e){t(e,n())}export{r as t};

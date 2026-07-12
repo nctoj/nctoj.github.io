@@ -1,0 +1,1 @@
+import{Q as e}from"./B4r9Qk57.js";var t=e({messages:[],add(e,t=`info`,n=3e3){let r=Math.random().toString(36).substring(2,9);this.messages.push({id:r,message:e,type:t}),setTimeout(()=>{this.remove(r)},n)},remove(e){this.messages=this.messages.filter(t=>t.id!==e)},success(e,t){this.add(e,`success`,t)},error(e,t){this.add(e,`error`,t)},info(e,t){this.add(e,`info`,t)}});export{t};

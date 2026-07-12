@@ -1,0 +1,1 @@
+.custom-scrollbar.svelte-mfvmna::-webkit-scrollbar{width:8px}.custom-scrollbar.svelte-mfvmna::-webkit-scrollbar-track{background:0 0}.custom-scrollbar.svelte-mfvmna::-webkit-scrollbar-thumb{background:var(--rp-overlay);border-radius:4px}.spin.svelte-mfvmna{animation:.8s linear infinite svelte-mfvmna-spin}@keyframes svelte-mfvmna-spin{to{transform:rotate(360deg)}}

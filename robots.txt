@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /profile
+Disallow: /submissions
+Disallow: /login
+Disallow: /register
+Disallow: /banned
+Disallow: /ide
+
+Allow: /
+Allow: /problems
+Allow: /contests
+Allow: /blog
+Allow: /rankings
+Allow: /rules
+
+Sitemap: https://algoj.frenda.dev/sitemap.xml

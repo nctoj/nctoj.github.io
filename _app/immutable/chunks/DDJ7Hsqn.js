@@ -1,0 +1,1 @@
+function e(e){return new Worker(``+new URL(`../workers/editor.worker-Cn2oRESe.js`,import.meta.url).href,{name:e?.name})}export{e as default};
